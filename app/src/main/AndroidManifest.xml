@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hu.bme.aut.android.kotdrink">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kotdrink">
+        <activity
+            android:name="hu.bme.aut.android.kotdrink.activity.MainMenuActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hu.bme.aut.android.kotdrink.activity.CategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name="hu.bme.aut.android.kotdrink.activity.AddPlayerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hu.bme.aut.android.kotdrink.activity.QuestionSlidePagerActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

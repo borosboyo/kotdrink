@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Kotdrink</string>
+    <string name="name">Name</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="new_player">New Player</string>
+    <string name="sex">Sex</string>
+    <string name="is_playing">Playing?</string>
+    <string name="warmup">Warmup</string>
+    <string name="classic">Classic</string>
+    <string name="spicy">Spicy</string>
+    <string name="hardcore">Hardcore</string>
+    <string name="chooseCategory">Choose category</string>
+    <string name="addPlayers">Add players</string>
+    <string name="last_active">Last Played on:</string>
+    <string name="last_played_with">Played With:</string>
+    <string name="warn_message">Need atleast 2 players to play. Add some more and tick in the checkboxes to choose a category ;)</string>
+
+    <string-array name="category_items">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="want_to_quit">Are you sure you want to quit?</string>
+    <string name="yes">Yes</string>
+    <string name="nobody">Nobody :(</string>
+</resources>
